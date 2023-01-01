@@ -1,0 +1,3 @@
+user = Wdtest.query.first()
+    application.db.session.delete(user)
+    application.db.session.commit()
